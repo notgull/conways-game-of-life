@@ -5,9 +5,9 @@
 
 class Cell {
   public:
-    uint64_t x;
-    uint64_t y;
-    Cell(uint64_t cx, uint64_t cx) : x(cx), y(cy) {}
+    int64_t x;
+    int64_t y;
+    Cell(int64_t cx, int64_t cy); 
 };
 
 class Node {
